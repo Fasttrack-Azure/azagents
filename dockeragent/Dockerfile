@@ -53,9 +53,9 @@ RUN wget --quiet https://releases.hashicorp.com/terraform/1.6.6/terraform_1.6.6_
   && rm terraform_1.6.6_linux_amd64.zip
 
 # Install Python3
-RUN apt-get install -y python3.6 \
-    && ln -s /usr/bin/python3.6 /usr/bin/python3
-RUN python3 -V
+#RUN apt-get install -y python3.6 \
+#    && ln -s /usr/bin/python3.6 /usr/bin/python3
+#RUN python3 -V
 
 
 WORKDIR /azp/
